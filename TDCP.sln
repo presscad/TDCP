@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BETD", "BETD\BETD.vcxproj", "{A80D6E31-E4FA-4596-9176-2D9608D6F8D3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GIM", "GIM\GIM.vcxproj", "{E9F30D8D-9BB8-4E97-BE14-735B7F61F0A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TPSM", "TPSM\TPSM.vcxproj", "{B2B86207-7387-496B-AFF7-8E0B156E3C49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TMDH", "TMDH\TMDH.vcxproj", "{1D347851-4CCB-436E-9A0D-65C61CEC84C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A80D6E31-E4FA-4596-9176-2D9608D6F8D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{A80D6E31-E4FA-4596-9176-2D9608D6F8D3}.Debug|x86.Build.0 = Debug|Win32
+		{A80D6E31-E4FA-4596-9176-2D9608D6F8D3}.Release|x86.ActiveCfg = Release|Win32
+		{A80D6E31-E4FA-4596-9176-2D9608D6F8D3}.Release|x86.Build.0 = Release|Win32
+		{E9F30D8D-9BB8-4E97-BE14-735B7F61F0A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E9F30D8D-9BB8-4E97-BE14-735B7F61F0A1}.Debug|x86.Build.0 = Debug|Win32
+		{E9F30D8D-9BB8-4E97-BE14-735B7F61F0A1}.Release|x86.ActiveCfg = Release|Win32
+		{E9F30D8D-9BB8-4E97-BE14-735B7F61F0A1}.Release|x86.Build.0 = Release|Win32
+		{B2B86207-7387-496B-AFF7-8E0B156E3C49}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2B86207-7387-496B-AFF7-8E0B156E3C49}.Debug|x86.Build.0 = Debug|Win32
+		{B2B86207-7387-496B-AFF7-8E0B156E3C49}.Release|x86.ActiveCfg = Release|Win32
+		{B2B86207-7387-496B-AFF7-8E0B156E3C49}.Release|x86.Build.0 = Release|Win32
+		{1D347851-4CCB-436E-9A0D-65C61CEC84C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D347851-4CCB-436E-9A0D-65C61CEC84C0}.Debug|x86.Build.0 = Debug|Win32
+		{1D347851-4CCB-436E-9A0D-65C61CEC84C0}.Release|x86.ActiveCfg = Release|Win32
+		{1D347851-4CCB-436E-9A0D-65C61CEC84C0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B92C498-A50A-4733-A2B2-E8915E09CFAB}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectUniqueName0 = BETD\\BETD.vcxproj
+		SccProjectName0 = \u0022$/\u0022,\u0020AAAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection0 = BETD\\
+		SccProjectUniqueName1 = GIM\\GIM.vcxproj
+		SccProjectName1 = \u0022$/\u0022,\u0020AAAAAAAA
+		SccLocalPath1 = .
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection1 = GIM\\
+		SccProjectUniqueName2 = TPSM\\TPSM.vcxproj
+		SccProjectName2 = \u0022$/\u0022,\u0020AAAAAAAA
+		SccLocalPath2 = .
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection2 = TPSM\\
+		SccProjectUniqueName3 = TMDH\\TMDH.vcxproj
+		SccProjectName3 = \u0022$/\u0022,\u0020AAAAAAAA
+		SccLocalPath3 = .
+		SccProvider3 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection3 = TMDH\\
+	EndGlobalSection
+EndGlobal

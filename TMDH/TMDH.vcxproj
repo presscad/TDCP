@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D347851-4CCB-436E-9A0D-65C61CEC84C0}</ProjectGuid>
+    <RootNamespace>TMDH</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <SccProjectName>"$/", AAAAAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;__TMDH_;__LDS_FEATURE_ID_DISABLED_;__LDS_FILE_;__MAP_LDS_;__COMMON_PART_INC_;__ENABLE_XHSTRING_LENGTH_PROPERTY_;__VS2010_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\LDS\LDS\LdsModel;..\..\XhCore\AlgFun;..\..\XhCore\Ent;..\..\XhCore\EntList;..\..\ToolKits\ToolCode;..\..\ToolKits\TowerCad;..\..\XhCore\Resolver;..\..\XhCore\Graphics;..\..\XhCore\PartLib;..\..\XhCore\XeroCad;..\..\XhCore\DrawSolid;..\..\XhCore\MODCore;..\..\XhCore\lib3ds;..\..\XhCore\3DS;..\..\XhCore\STL;..\..\XhLmd\XhLicAgent;..\..\XhLmd\XhLdsLm;..\..\XhLmd\XhLmd;..\..\Tid\TIDCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\XhCore\AlgFun\Release;..\..\XhCore\Ent\Release;..\..\XhCore\EntList\Release;..\..\XhCore\DrawSolid\Release;..\..\XhCore\XeroCad\Release;..\..\XhCore\PartLib\Debug;..\..\XhCore\MODCore\Debug;..\..\XhCore\3DS\Debug;..\..\XhCore\STL\Debug;..\..\XhLmd\XhLicAgent\Release2;.\..\XhLmd\XhLdsLm\Release2;..\..\XhLmd\XhLmd\Debug;..\..\Tid\TIDCore\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Version.lib;f_ent.lib;f_ent_list.lib;f_alg_fun.lib;XhLdsLm2.lib;XhLicAgent2.lib;PartLib.lib;DrawSolid.lib;XeroCad.lib;ModCore.lib;TidCore.lib;3ds.lib;stl.lib;XhLmd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__TMDH_;__LDS_FEATURE_ID_DISABLED_;__LDS_FILE_;__MAP_LDS_;__COMMON_PART_INC_;__ENABLE_XHSTRING_LENGTH_PROPERTY_;__VS2010_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\LDS\LDS\LdsModel;..\..\ToolKits\ToolCode;..\..\ToolKits\TowerCad;..\..\XhCore\Resolver;..\..\XhCore\Graphics;..\..\XhCore\PartLib;..\..\XhCore\XeroCad;..\..\XhCore\DrawSolid;..\..\XhCore\MODCore;..\..\XhCore\3DS;..\..\XhCore\STL;..\..\XhLmd\XhLicAgent;..\..\XhLmd\XhLdsLm;..\..\XhLmd\XhLmd;..\..\Tid\TIDCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\XhCore\AlgFun\Release;..\..\XhCore\Ent\Release;..\..\XhCore\EntList\Release;..\..\XhCore\DrawSolid\Release;..\..\XhCore\XeroCad\Release;..\..\XhCore\PartLib\Release;..\..\XhCore\MODCore\Release;..\..\XhCore\3DS\Release;..\..\XhCore\STL\Release;..\..\XhLmd\XhLicAgent\Release2;.\..\XhLmd\XhLdsLm\Release2;..\..\XhLmd\XhLmd\Release;..\..\Tid\TIDCore\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Version.lib;f_ent.lib;f_ent_list.lib;f_alg_fun.lib;XhLdsLm2.lib;XhLicAgent2.lib;PartLib.lib;DrawSolid.lib;XeroCad.lib;ModCore.lib;TidCore.lib;3ds.lib;stl.lib;XhLmd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\LDS\LDS\LdsModel\PartGroup.cpp.org" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bar_GL.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\IL_Project.bmp" />
+    <None Include="res\TMDH.ico" />
+    <None Include="res\TMDH.rc2" />
+    <None Include="res\TMDHDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\Tower.ico" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\AnchorBolt.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ArrayPtrList.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\BiteCut.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\Block.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\BlockTempl.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\BriefWeldPart.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\btc.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\CirBufferStack.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ClonePlate.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\CommandDrawingModel.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ConeTubeParts.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\DbObjPropId.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\DefinedView.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ElectricTower.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\FoundationParam.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\FuCaiCheck.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\HashObjIdList.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\HoleMaker.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\IModel.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\IPartLibrary.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\LabelProp.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ldsptr_list.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lds_co_part.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lds_list.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lds_part.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lslist.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\macro.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ModelTree.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\MutiThreadTask.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\PartGroup.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\PPEBuffer.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\SlotArm.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\SmartPtr.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\SpherePartGroup.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\Tower.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\UniWirePointModel.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\VertexsLifeObject.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\WindLoad.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\WireLoadModelBuffer.h" />
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\XmlModel.h" />
+    <ClInclude Include="..\..\LDS\LDS\StdPartSolid\EBHangingPoint.h" />
+    <ClInclude Include="..\..\LDS\LDS\StdPartSolid\GDBoard.h" />
+    <ClInclude Include="..\..\LDS\LDS\StdPartSolid\StdMetaSolid.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\Buffer.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\BufferStack.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\ColorSelectComboBox.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\ComplexId.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\CreateFace.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\DialogPanel.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\excel9.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\ExcelOper.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\Expression.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\folder_dialog.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\GimDef.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\HashTable.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\HiberarchyId.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\list.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\LogFile.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\Markup.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\MemberProperty.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\MenuButton.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropertyList.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropertyListOper.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropListItem.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\SolidBody.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\SolidBodyBuffer.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\SortFunc.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\SquareTree.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\Variant.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhCharString.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhMath.h" />
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhTreeCtrl.h" />
+    <ClInclude Include="..\..\ToolKits\TowerCad\DxfFile.h" />
+    <ClInclude Include="..\..\ToolKits\TowerCad\LicFuncDef.h" />
+    <ClInclude Include="..\..\ToolKits\TowerCad\ParseAdaptNo.h" />
+    <ClInclude Include="..\..\ToolKits\TowerCad\ProcessPart.h" />
+    <ClInclude Include="..\..\ToolKits\TowerCad\SegI.h" />
+    <ClInclude Include="..\..\ToolKits\TowerCad\WirePlaceCode.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CryptBuffer.h" />
+    <ClInclude Include="EditPage.h" />
+    <ClInclude Include="ExcelColumn.h" />
+    <ClInclude Include="GlobalFunc.h" />
+    <ClInclude Include="InstanceDlg.h" />
+    <ClInclude Include="LibraryQuery.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ProcBarDlg.h" />
+    <ClInclude Include="PropertyDlg.h" />
+    <ClInclude Include="TMDHModel.h" />
+    <ClInclude Include="TMDHPage.h" />
+    <ClInclude Include="TreeItemInfo.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TMDH.h" />
+    <ClInclude Include="TMDHDoc.h" />
+    <ClInclude Include="TMDHView.h" />
+    <ClInclude Include="XmlData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\AnchorBolt.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ArcPart.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\AssembleCS.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\AttachWindLoad.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BiteCut.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Block.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BlockTempl.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Bolt.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BoltU.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BriefWeldPart.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\btc.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\CirBufferStack.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ClonePlate.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\CommandDrawingModel.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\CommonJg.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ConeTube.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ConeTubeParts.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ConnectPointInfo.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\DbObjProp.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\DefinedView.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\DesignLjPartPara.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ElectricTower.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\FoundationParam.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\FuCaiCheck.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\HashObjIdList.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\HoleMaker.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\JointTubePartGroup.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LdsModel.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lds_co_part.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lds_list.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lds_part.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LineHShape.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LineSlot.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LineTube.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lslist.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ModelTree.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\MutiThreadTask.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Node.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ParaBlock.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ParamPlate.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\PartGroup.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Plate.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\PPEBuffer.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\SlotArm.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\SpherePartGroup.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\StdPartModel.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\SteelFitting.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Tower.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\UndoTower.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\UniWirePointModel.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\VertexsLifeObject.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\WindLoad.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\WireLoadModelBuffer.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\XmlModel.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\StdPartSolid\EBHangingPoint.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\StdPartSolid\GDBoard.cpp" />
+    <ClCompile Include="..\..\LDS\LDS\StdPartSolid\StdMetaSolid.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\Buffer.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\BufferStack.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\ColorSelectComboBox.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\ComplexId.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\CreateFace.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\DialogPanel.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\excel9.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\Expression.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\folder_dialog.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\HiberarchyId.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\list.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\LogFile.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\Markup.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\MenuButton.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\PropertyList.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\SolidBody.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\SolidBodyBuffer.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\SortFunc.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\SquareTree.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\Variant.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhCharString.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhMath.cpp" />
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhTreeCtrl.cpp" />
+    <ClCompile Include="..\..\ToolKits\TowerCad\DxfFile.cpp" />
+    <ClCompile Include="..\..\ToolKits\TowerCad\LicFuncDef.cpp" />
+    <ClCompile Include="..\..\ToolKits\TowerCad\ParseAdaptNo.cpp" />
+    <ClCompile Include="..\..\ToolKits\TowerCad\ProcessPart.cpp" />
+    <ClCompile Include="..\..\ToolKits\TowerCad\SegI.cpp" />
+    <ClCompile Include="..\..\ToolKits\TowerCad\WirePlaceCode.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="CryptBuffer.cpp" />
+    <ClCompile Include="DisplayGimProperty.cpp" />
+    <ClCompile Include="EditPage.cpp" />
+    <ClCompile Include="GlobalFunc.cpp" />
+    <ClCompile Include="InstanceDlg.cpp" />
+    <ClCompile Include="LibraryQuery.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ProcBarDlg.cpp" />
+    <ClCompile Include="PropertyDlg.cpp" />
+    <ClCompile Include="TMDHModel.cpp" />
+    <ClCompile Include="TMDHPage.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TMDH.cpp" />
+    <ClCompile Include="TMDHDoc.cpp" />
+    <ClCompile Include="TMDHView.cpp" />
+    <ClCompile Include="XmlData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TMDH.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TMDH.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

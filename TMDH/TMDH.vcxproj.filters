@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ToolCode">
+      <UniqueIdentifier>{5ad18f7c-fbec-4898-bdfd-cf628724b58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LdsModel">
+      <UniqueIdentifier>{17e5b0e3-dbdd-436a-9cea-9803af10129d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TowerCad">
+      <UniqueIdentifier>{d5c44889-fd93-455f-99f6-f226f3652ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdPartSolid">
+      <UniqueIdentifier>{9cc3fecf-6575-4b75-835e-4b1babe527c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TMDH.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TMDHDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TMDH.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\IL_Project.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\LDS\LDS\LdsModel\PartGroup.cpp.org" />
+    <None Include="res\bar_GL.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Tower.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TMDH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TMDHDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TMDHView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcBarDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhCharString.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\DialogPanel.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhTreeCtrl.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\Tower.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\SegI.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\AnchorBolt.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ArrayPtrList.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\Block.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\BlockTempl.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\BriefWeldPart.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\btc.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\CirBufferStack.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ClonePlate.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\CommandDrawingModel.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ConeTubeParts.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\DbObjPropId.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\DefinedView.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\FoundationParam.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\FuCaiCheck.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\HashObjIdList.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\HoleMaker.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\IModel.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\IPartLibrary.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\LabelProp.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\PPEBuffer.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lds_co_part.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lds_list.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lds_part.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ldsptr_list.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\lslist.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\macro.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ModelTree.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\MutiThreadTask.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\PartGroup.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\SlotArm.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\SpherePartGroup.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\SmartPtr.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\VertexsLifeObject.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\XmlModel.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\WindLoad.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\WireLoadModelBuffer.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Buffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\BufferStack.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Markup.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SolidBody.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SolidBodyBuffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\LogFile.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ComplexId.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\folder_dialog.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\HashTable.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\ProcessPart.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\ParseAdaptNo.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\HiberarchyId.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Expression.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\MemberProperty.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\WirePlaceCode.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\list.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="TMDHModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeItemInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SortFunc.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelColumn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Variant.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\excel9.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ExcelOper.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropertyList.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropertyListOper.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropListItem.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ColorSelectComboBox.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\DxfFile.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SquareTree.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\UniWirePointModel.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\CreateFace.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhMath.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\ElectricTower.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\StdPartSolid\EBHangingPoint.h">
+      <Filter>StdPartSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\StdPartSolid\GDBoard.h">
+      <Filter>StdPartSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\LdsModel\BiteCut.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\LicFuncDef.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="TMDHPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\MenuButton.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LDS\LDS\StdPartSolid\StdMetaSolid.h">
+      <Filter>StdPartSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\GimDef.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TMDH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TMDHDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TMDHView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcBarDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhCharString.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\DialogPanel.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhTreeCtrl.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Tower.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\SegI.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\AnchorBolt.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ArcPart.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\AssembleCS.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\AttachWindLoad.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Block.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BlockTempl.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Bolt.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BoltU.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BriefWeldPart.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\btc.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\CirBufferStack.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ClonePlate.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\CommandDrawingModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\CommonJg.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ConeTube.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ConeTubeParts.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ConnectPointInfo.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\DbObjProp.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\DefinedView.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\DesignLjPartPara.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\FoundationParam.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\FuCaiCheck.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\HashObjIdList.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\HoleMaker.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\JointTubePartGroup.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lds_co_part.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lslist.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lds_list.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\lds_part.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LdsModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LineHShape.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LineSlot.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\LineTube.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ModelTree.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\PPEBuffer.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\MutiThreadTask.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Node.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ParaBlock.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ParamPlate.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\PartGroup.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\Plate.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\UndoTower.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\XmlModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\VertexsLifeObject.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\WindLoad.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\WireLoadModelBuffer.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\StdPartModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\SpherePartGroup.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\SlotArm.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Buffer.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\BufferStack.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Markup.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SolidBody.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SolidBodyBuffer.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\LogFile.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\ComplexId.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\folder_dialog.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\ProcessPart.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\ParseAdaptNo.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\HiberarchyId.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Expression.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\WirePlaceCode.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\list.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TMDHModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SortFunc.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Variant.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\excel9.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\PropertyList.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\ColorSelectComboBox.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayGimProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SquareTree.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\UniWirePointModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\CreateFace.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhMath.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\SteelFitting.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\ElectricTower.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\StdPartSolid\EBHangingPoint.cpp">
+      <Filter>StdPartSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\StdPartSolid\GDBoard.cpp">
+      <Filter>StdPartSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\LdsModel\BiteCut.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\LicFuncDef.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="TMDHPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\MenuButton.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LDS\LDS\StdPartSolid\StdMetaSolid.cpp">
+      <Filter>StdPartSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\DxfFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TMDH.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
